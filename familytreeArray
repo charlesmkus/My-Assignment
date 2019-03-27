@@ -1,0 +1,11 @@
+<?php
+$familytree = array('fmembers' => "Jatula Mkandawire",
+                    'Surname'=> "Mkandawire",
+                    'Clansname'=> "jatula",
+                    'Smember'=> "Grace Nyerenda",
+                    'Surname' => "Nyerenda",
+                    'Clansname'=> "Nyachibakhuni"
+)
+foreach ($family as $item => $description)
+echo "$item : $description";
+?>
